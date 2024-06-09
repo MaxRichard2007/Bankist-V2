@@ -99,7 +99,7 @@ console.log(link.getAttribute("href"));
 logo.classList.add("c", "j");
 logo.classList.remove("c", "j");
 logo.classList.toggle("c");
-logo.classList.contais("c"); // not includes
+logo.classList.contains("c"); // not includes
 
 // Don't use
 logo.className = "Max";
